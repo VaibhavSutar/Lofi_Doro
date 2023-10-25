@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.mainvd{
+    width: 100%;
+    height: 100vh;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.login
+{
+    position: absolute;
+    top: 3%;
+    right: 2%;
+}
+.pomo
+{
+    position: absolute;
+    top: 30%;
+    left: 70vw;
+    width: 50%;
+    height: 100vh;
+    /* background-color: aliceblue; */
+    margin: 0;
+}
+.todo
+{
+    position: absolute;
+    top: 25%;
+    left: 5vw;
+    width: 60%;
+    height: 10;
+    margin: 0;
+}
+.audiopl
+{
+    position: absolute;
+    top: 90%;
+    left: 45vw;
+    /* background-color: aqua; */
+}
+.profileimg
+{
+    width:50%;
+    height:15%;
+    overflow: hidden;
+    border-radius: 50%;
+}

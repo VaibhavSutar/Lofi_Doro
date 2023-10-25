@@ -1,0 +1,145 @@
+[debug] [2023-10-25T16:59:43.530Z] ----------------------------------------------------------------------
+[debug] [2023-10-25T16:59:43.531Z] Command:       /usr/local/bin/firebase /Users/apple/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init hosting
+[debug] [2023-10-25T16:59:43.531Z] CLI Version:   12.7.0
+[debug] [2023-10-25T16:59:43.532Z] Platform:      darwin
+[debug] [2023-10-25T16:59:43.532Z] Node Version:  v16.16.0
+[debug] [2023-10-25T16:59:43.538Z] Time:          Wed Oct 25 2023 22:29:43 GMT+0530 (India Standard Time)
+[debug] [2023-10-25T16:59:43.538Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-25T16:59:43.634Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-25T16:59:43.636Z] > authorizing via signed-in user (sutarvaibhav37@student.sfit.ac.in)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/apple/Vaibhav/SFIT/cppl/lofi-doro
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-25T16:59:43.644Z] Using project from CLI flag: lofi-doro
+[debug] [2023-10-25T16:59:43.647Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lofi-doro [none]
+[debug] [2023-10-25T16:59:44.428Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lofi-doro 200
+[debug] [2023-10-25T16:59:44.431Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lofi-doro {"projectId":"lofi-doro","projectNumber":"467833471397","displayName":"lofi-doro","name":"projects/lofi-doro","resources":{"hostingSite":"lofi-doro","realtimeDatabaseInstance":"lofi-doro-default-rtdb"},"state":"ACTIVE","etag":"1_cb10df9a-c44c-4ed5-9515-66a1239b6390"}
+[info] i  Using project lofi-doro (lofi-doro) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-10-25T17:19:54.557Z] ----------------------------------------------------------------------
+[debug] [2023-10-25T17:19:54.558Z] Command:       /usr/local/bin/firebase /Users/apple/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init hosting
+[debug] [2023-10-25T17:19:54.559Z] CLI Version:   12.7.0
+[debug] [2023-10-25T17:19:54.559Z] Platform:      darwin
+[debug] [2023-10-25T17:19:54.559Z] Node Version:  v16.16.0
+[debug] [2023-10-25T17:19:54.567Z] Time:          Wed Oct 25 2023 22:49:54 GMT+0530 (India Standard Time)
+[debug] [2023-10-25T17:19:54.567Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-25T17:19:54.659Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-25T17:19:54.660Z] > authorizing via signed-in user (sutarvaibhav37@student.sfit.ac.in)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/apple/Vaibhav/SFIT/cppl/lofi-doro
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-25T17:19:54.666Z] Using project from CLI flag: lofi-doro
+[debug] [2023-10-25T17:19:54.668Z] > refreshing access token with scopes: []
+[debug] [2023-10-25T17:19:54.670Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-10-25T17:19:54.670Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-25T17:19:55.026Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-10-25T17:19:55.030Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-25T17:19:55.047Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lofi-doro [none]
+[debug] [2023-10-25T17:19:55.768Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lofi-doro 200
+[debug] [2023-10-25T17:19:55.768Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lofi-doro {"projectId":"lofi-doro","projectNumber":"467833471397","displayName":"lofi-doro","name":"projects/lofi-doro","resources":{"hostingSite":"lofi-doro","realtimeDatabaseInstance":"lofi-doro-default-rtdb"},"state":"ACTIVE","etag":"1_79499e74-37d2-419e-9a57-5362ee27c6b5"}
+[info] i  Using project lofi-doro (lofi-doro) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-10-25T17:20:05.027Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-10-25T17:20:05.178Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-10-25T17:20:05.179Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.5.0","browserURL":"https://www.gstatic.com/firebasejs/10.5.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.5.0/firebase.tgz"},"live":{"version":"10.5","browserURL":"https://www.gstatic.com/firebasejs/live/10.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.5/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.5.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.5.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.5.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.5.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.5.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.5.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.5.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.5.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.5.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.5.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore.memory.js"}}
+[info] ✔  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/apple/Vaibhav/SFIT/cppl/lofi-doro 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=621003135&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-10-25T17:20:15.227Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-10-25T17:20:15.228Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-10-25T17:20:15.619Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-10-25T17:20:15.620Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-10-25T17:20:15.640Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-10-25T17:20:16.009Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-10-25T17:20:16.010Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"VaibhavSutar","id":70685032,"node_id":"MDQ6VXNlcjcwNjg1MDMy","avatar_url":"https://avatars.githubusercontent.com/u/70685032?v=4","gravatar_id":"","url":"https://api.github.com/users/VaibhavSutar","html_url":"https://github.com/VaibhavSutar","followers_url":"https://api.github.com/users/VaibhavSutar/followers","following_url":"https://api.github.com/users/VaibhavSutar/following{/other_user}","gists_url":"https://api.github.com/users/VaibhavSutar/gists{/gist_id}","starred_url":"https://api.github.com/users/VaibhavSutar/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/VaibhavSutar/subscriptions","organizations_url":"https://api.github.com/users/VaibhavSutar/orgs","repos_url":"https://api.github.com/users/VaibhavSutar/repos","events_url":"https://api.github.com/users/VaibhavSutar/events{/privacy}","received_events_url":"https://api.github.com/users/VaibhavSutar/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":3,"public_gists":1,"followers":3,"following":3,"created_at":"2020-09-03T06:20:23Z","updated_at":"2023-09-29T15:34:04Z","private_gists":0,"total_private_repos":5,"owned_private_repos":5,"disk_usage":23476,"collaborators":1,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as VaibhavSutar 
+[info] 
+[debug] [2023-10-25T17:20:26.533Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-25T17:20:26.566Z] *** [apiv2] error from fetch(https://api.github.com/repos//actions/secrets/public-key?type=owner, {"headers":{},"method":"GET"}): FetchError: request to https://api.github.com/repos//actions/secrets/public-key?type=owner failed, reason: getaddrinfo ENOTFOUND api.github.com
+[debug] [2023-10-25T17:20:26.918Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-25T17:20:26.929Z] *** [apiv2] error from fetch(https://api.github.com/repos//actions/secrets/public-key?type=owner, {"headers":{},"method":"GET"}): FetchError: request to https://api.github.com/repos//actions/secrets/public-key?type=owner failed, reason: getaddrinfo ENOTFOUND api.github.com
+[debug] [2023-10-25T17:20:27.803Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-25T17:20:27.815Z] *** [apiv2] error from fetch(https://api.github.com/repos//actions/secrets/public-key?type=owner, {"headers":{},"method":"GET"}): FetchError: request to https://api.github.com/repos//actions/secrets/public-key?type=owner failed, reason: getaddrinfo ENOTFOUND api.github.com
+[debug] [2023-10-25T17:20:27.995Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-25T17:20:28.006Z] *** [apiv2] error from fetch(https://api.github.com/repos//actions/secrets/public-key?type=owner, {"headers":{},"method":"GET"}): FetchError: request to https://api.github.com/repos//actions/secrets/public-key?type=owner failed, reason: getaddrinfo ENOTFOUND api.github.com
+[debug] [2023-10-25T17:20:28.135Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-25T17:20:28.142Z] *** [apiv2] error from fetch(https://api.github.com/repos//actions/secrets/public-key?type=owner, {"headers":{},"method":"GET"}): FetchError: request to https://api.github.com/repos//actions/secrets/public-key?type=owner failed, reason: getaddrinfo ENOTFOUND api.github.com
+[debug] [2023-10-25T17:20:32.144Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-25T17:20:32.318Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-25T17:20:32.814Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-10-25T17:20:32.815Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-10-25T17:20:32.819Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-10-25T17:20:32.819Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
